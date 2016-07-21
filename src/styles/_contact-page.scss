@@ -1,0 +1,28 @@
+#contact-page {
+  header nav ul a.contact-page {
+    color: $color-warm;
+    border-color: $color-warm;
+  }
+  main {
+    #hero {
+      height: 100vh;
+      > div {
+        padding: 200px 20px;
+      }
+      h1 {
+        font-size: 20px;
+      }
+    }
+    #features {
+      h1 {
+        font-size: 20px;
+      }
+    }
+    #call-to-action {
+      a.button {}
+    }
+  }
+  footer {
+    color: green;
+  }
+}
