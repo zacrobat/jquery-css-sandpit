@@ -16,21 +16,21 @@ header ul {
     }
     a {
       display: inline-block;
-      color: $color-cool;
+      color: #000;
       text-align: center;
       padding: 10px 16px;
       text-decoration: none;
       font-size: 17px;
-      border: 1px solid $color-cool;
+      border: 2px solid #000;
       margin: 8px 4px;
       // transition: all 400ms ease-out;
       &:hover {
-        color: $color-warm;
-        border-color: $color-warm;
+        color: #fff;
+        background-color: #000;
       }
       &.active {
-        color: $color-warm;
-        border-color: $color-warm;
+        color: #fff;
+        background-color: #000;
       }
     }
   }

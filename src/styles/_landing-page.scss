@@ -1,13 +1,13 @@
 #landing-page {
   header nav ul a.landing-page {
-    color: $color-warm;
-    border-color: $color-warm;
+    color: #fff;
+    background-color: #000;
   }
   main {
     #hero {
       height: 100vh;
       > div {
-        padding: 200px 20px;
+        padding: 200px 0;
       }
       h1 {
         font-size: 20px;

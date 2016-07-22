@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  function myFunction() {
+    document.getElementsByClassName("header ul")[0].classList.toggle("responsive");
+  }
+
   $('header nav ul a').not('.burger').on('click', function(event) {
     // event.preventDefault();
     console.log('Ignoring default event!');
