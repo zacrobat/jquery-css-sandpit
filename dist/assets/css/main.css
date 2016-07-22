@@ -290,77 +290,20 @@ header ul li.icon i.fa-bars {
   color: #fff;
   background-color: #000;
 }
-#landing-page main #hero {
-  height: 100vh;
-}
-#landing-page main #hero > div {
-  padding: 200px 0;
-}
-#landing-page main #hero h1 {
-  font-size: 20px;
-}
-#landing-page main #features h1 {
-  font-size: 20px;
-}
 
-#work-page header nav ul a.work-page {
+#accordion-page header nav ul a.accordion-page {
   color: #fff;
   background-color: #000;
 }
-#work-page main #hero {
-  height: 100vh;
-}
-#work-page main #hero > div {
-  padding: 200px 20px;
-}
-#work-page main #hero h1 {
-  font-size: 20px;
-}
-#work-page main #features h1 {
-  font-size: 20px;
-}
-#work-page footer {
-  color: green;
-}
 
-#about-page header nav ul a.about-page {
+#tabs-page header nav ul a.tabs-page {
   color: #fff;
   background-color: #000;
 }
-#about-page main #hero {
-  height: 100vh;
-}
-#about-page main #hero > div {
-  padding: 200px 20px;
-}
-#about-page main #hero h1 {
-  font-size: 20px;
-}
-#about-page main #features h1 {
-  font-size: 20px;
-}
-#about-page footer {
-  color: green;
-}
 
-#contact-page header nav ul a.contact-page {
+#css-page header nav ul a.css-page {
   color: #fff;
   background-color: #000;
-}
-#contact-page main #hero {
-  height: 100vh;
-}
-#contact-page main #hero > div {
-  padding: 200px 20px;
-}
-#contact-page main #hero h1 {
-  font-size: 20px;
-}
-#contact-page main #features h1 {
-  font-size: 20px;
-}
-#contact-page footer {
-  color: green;
 }
 
 /*# sourceMappingURL=main.css.map */
