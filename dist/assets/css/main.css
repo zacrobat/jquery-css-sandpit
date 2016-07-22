@@ -256,7 +256,7 @@ header ul li.icon i.fa-bars {
 }
 
 @media screen and (max-width: 680px) {
-  header ul li:not(:first-child) {
+  header ul li:not(.icon) {
     display: none;
   }
 
@@ -291,14 +291,107 @@ header ul li.icon i.fa-bars {
   background-color: #000;
 }
 
+#accordion-page {
+  /* Float the list items side by side */
+  /* Style the links inside the list items */
+  /* Change background color of links on hover */
+  /* Create an active/current tablink class */
+  /* Style the tab content */
+}
 #accordion-page header nav ul a.accordion-page {
   color: #fff;
   background-color: #000;
 }
+#accordion-page body {
+  font-family: 'Lato', sans-serif;
+}
+#accordion-page ul.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+#accordion-page ul.tab li {
+  float: left;
+}
+#accordion-page ul.tab li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+#accordion-page ul.tab li a:hover {
+  background-color: #ddd;
+}
+#accordion-page .active,
+#accordion-page ul.tab li a:focus {
+  background-color: #ccc;
+}
+#accordion-page .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 
+#tabs-page {
+  /* Style the list */
+  /* Float the list items side by side */
+  /* Style the links inside the list items */
+  /* Change background color of links on hover */
+  /* Create an active/current tablink class */
+  /* Style the tab content */
+}
 #tabs-page header nav ul a.tabs-page {
   color: #fff;
   background-color: #000;
+}
+#tabs-page #title {
+  margin: 0 0 65px;
+}
+#tabs-page ul.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+  border-color: blue;
+  border-top: 1px solid blue;
+  border: 1px solid;
+  border-bottom: none;
+  background-color: #000;
+}
+#tabs-page ul.tab li {
+  float: left;
+}
+#tabs-page ul.tab li a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+#tabs-page ul.tab li a:hover {
+  color: #000;
+  background-color: #fff;
+}
+#tabs-page .active,
+#tabs-page ul.tab li a:focus {
+  color: #000;
+  background-color: #fff;
+}
+#tabs-page .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 #css-page header nav ul a.css-page {

@@ -44,7 +44,7 @@ header ul li.icon {
   }
 }
 @media screen and (max-width:680px) {
-  header ul li:not(:first-child) {
+  header ul li:not(.icon) {
     display: none;
   }
   header ul li.icon {
