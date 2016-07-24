@@ -7,8 +7,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  transition: 1.55s;
   // background-color: #000;
   // margin: 0 auto;
+}
+a {
+  transition: 0.22s;
 }
 p {
   margin: 18px 0;

@@ -193,6 +193,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  transition: 1.55s;
+}
+
+a {
+  transition: 0.22s;
 }
 
 p {
@@ -238,7 +243,7 @@ header ul li a {
   padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
-  border: 2px solid #000;
+  border: 1px solid #000;
   margin: 8px 4px;
 }
 header ul li a:hover {
@@ -330,7 +335,6 @@ header ul li.icon i.fa-bars {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: 0.3s;
   font-size: 17px;
   border-left: 1px solid #000;
 }
