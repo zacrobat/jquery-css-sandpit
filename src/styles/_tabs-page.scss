@@ -4,7 +4,7 @@
     background-color: #000;
   }
   /* Style the list */
-  ul.tab {
+  ul.tabs {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,11 +15,11 @@
     background-color: #000;
   }
   /* Float the list items side by side */
-  ul.tab li {
+  ul.tabs li {
     float: left;
   }
   /* Style the links inside the list items */
-  ul.tab li a {
+  ul.tabs li a {
     display: inline-block;
     color: #fff;
     text-align: center;
@@ -29,13 +29,13 @@
     border-left: 1px solid #000;
   }
   /* Change background color of links on hover */
-  ul.tab li a:hover {
+  ul.tabs li a:hover {
     color: #000;
     background-color: #fff;
   }
   /* Create an active/current tablink class */
   .active,
-  ul.tab li a:focus {
+  ul.tabs li a:focus {
     color: #000;
     background-color: #fff;
   }

@@ -222,6 +222,14 @@ img {
   text-align: center;
 }
 
+.visable {
+  display: block;
+}
+
+.invisable {
+  display: none;
+}
+
 header ul {
   list-style-type: none;
   margin: 16px;
@@ -317,7 +325,7 @@ header ul li.icon i.fa-bars {
   color: #fff;
   background-color: #000;
 }
-#tabs-page ul.tab {
+#tabs-page ul.tabs {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -326,10 +334,10 @@ header ul li.icon i.fa-bars {
   border-bottom: none;
   background-color: #000;
 }
-#tabs-page ul.tab li {
+#tabs-page ul.tabs li {
   float: left;
 }
-#tabs-page ul.tab li a {
+#tabs-page ul.tabs li a {
   display: inline-block;
   color: #fff;
   text-align: center;
@@ -338,12 +346,12 @@ header ul li.icon i.fa-bars {
   font-size: 17px;
   border-left: 1px solid #000;
 }
-#tabs-page ul.tab li a:hover {
+#tabs-page ul.tabs li a:hover {
   color: #000;
   background-color: #fff;
 }
 #tabs-page .active,
-#tabs-page ul.tab li a:focus {
+#tabs-page ul.tabs li a:focus {
   color: #000;
   background-color: #fff;
 }
