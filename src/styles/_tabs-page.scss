@@ -28,6 +28,14 @@
     font-size: 17px;
     border-left: 1px solid #000;
   }
+  ul.tabs li a.active-tab {
+    color: #000;
+    background-color: #fff;
+  }
+  ul.tabs li a.inactive-tab {
+    color: #fff;
+    background-color: #000;
+  }
   /* Change background color of links on hover */
   ul.tabs li a:hover {
     color: #000;
@@ -42,7 +50,7 @@
   /* Style the tab content */
   .tabcontent {
     box-sizing: border-box;
-    display: none;
+    // display: none;
     padding: 16px 26px;
     border-left: 1px solid #000;
     border-top: none;
