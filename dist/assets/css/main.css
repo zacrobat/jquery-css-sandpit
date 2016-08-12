@@ -355,7 +355,7 @@ header ul li.icon i.fa-bars {
   color: #000;
   background-color: #fff;
 }
-#tabs-page .tabcontent {
+#tabs-page .tabcontent div {
   box-sizing: border-box;
   padding: 16px 26px;
   border-left: 1px solid #000;
