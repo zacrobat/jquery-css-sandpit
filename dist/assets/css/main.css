@@ -222,14 +222,6 @@ img {
   text-align: center;
 }
 
-.visible {
-  display: block;
-}
-
-.invisible {
-  display: none;
-}
-
 header ul {
   list-style-type: none;
   margin: 16px;
