@@ -11,4 +11,8 @@ $(document).ready(function() {
     var completeName = '[name="' + $(this).attr('for') + '"]';
     $(completeName).show().siblings().hide();
   });
+  $('dd').hide();
+  $('dt').on('click', function() {
+    $(this).next('dd').slideToggle('600');
+  });
 });
