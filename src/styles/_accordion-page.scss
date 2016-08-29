@@ -3,4 +3,32 @@
     color: #fff;
     background-color: #000;
   }
+  #accordion {
+    box-sizing: border-box;
+    // display: none;
+    padding: 16px 26px;
+    border-left: 1px solid #000;
+    border-top: none;
+    height: 130px;
+  }
+}
+button {
+  box-sizing: border-box;
+  display: inline-block;
+  color: #000;
+  background-color: transparent;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid #000;
+  width: 100%;
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  &.active {
+    color: #fff;
+    background-color: #000;
+  }
 }

@@ -196,7 +196,8 @@ body {
   transition: 1.55s;
 }
 
-a {
+a,
+button {
   transition: 0.22s;
 }
 
@@ -301,6 +302,34 @@ header ul li.icon i.fa-bars {
 }
 
 #accordion-page header nav ul a.accordion-page {
+  color: #fff;
+  background-color: #000;
+}
+#accordion-page #accordion {
+  box-sizing: border-box;
+  padding: 16px 26px;
+  border-left: 1px solid #000;
+  border-top: none;
+  height: 130px;
+}
+
+button {
+  box-sizing: border-box;
+  display: inline-block;
+  color: #000;
+  background-color: transparent;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid #000;
+  width: 100%;
+}
+button:hover {
+  color: #fff;
+  background-color: #000;
+}
+button.active {
   color: #fff;
   background-color: #000;
 }
