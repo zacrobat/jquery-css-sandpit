@@ -396,5 +396,14 @@ button.active {
   color: #fff;
   background-color: #000;
 }
+#css-page .chart {
+  width: 100px;
+  height: 100px;
+}
+#css-page .circ1 {
+  stroke: green;
+  fill: white;
+  stroke-width: 5;
+}
 
 /*# sourceMappingURL=main.css.map */
